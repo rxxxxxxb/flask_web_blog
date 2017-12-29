@@ -1,9 +1,17 @@
-<html>
-<head>
-<title>Home</title>
-</head>
+{% extends "base.html" %} 
+{% block content %}
 <body>
-    <h1>HOMEEEEEEEEEEEE PAGEEEEEEE</h1>
-</body>
+    <div class="form-group">
+    <h2 align="center">HOMEEEEEEEEEEEE PAGEEEEEEE</h2>
+    <a href="/login" >
+        <button class="btn btn-success btn-lg btn-block">Login</button>
+    </a>
+    </div>
 
-</html>
+    <div class="form-group">
+    <a href="/register">
+        <button class="btn btn-primary btn-lg btn-block">Sign Up</button>
+    </a>
+    </div>
+</body>
+ {% endblock %}
