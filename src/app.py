@@ -13,7 +13,7 @@ def initailize_database():
     Database.initialize()
 
 @app.route('/')
-def hello_method():
+def home_method():
     return render_template('home.html')
 
 
